@@ -1,4 +1,5 @@
 #three-card {
+    text-align: center;
     .container-main {
         .row {
             .column {
@@ -34,6 +35,8 @@
                     background-color: #fef0ef;
                     span {
                         .fas {
+                            margin-top: 50px;
+                            font-size: 34px;
                         }
                     }
                     h2 {
@@ -49,7 +52,7 @@
 }
 #know1 {
     // width: 770px;
-    height: 600px;
+    height: 841px;
     background-color: #fef0ef;
     margin-top: 80px;
     .container-main {
@@ -133,6 +136,7 @@
     }
 }
 #about1 {
+    text-align: center;
     .container-main {
         .row {
             h1 {

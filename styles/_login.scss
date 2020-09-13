@@ -1,8 +1,9 @@
 #log-head {
     background-image: url("../images/Rectangle\ 122.png");
-    background-position: left;
+    // background-position: left;
     background-repeat: no-repeat;
     background-clip: initial;
+    height: 100%;
     .container-main {
         // background-size: cover;
         // justify-content: space-between;
@@ -15,11 +16,13 @@
                     img {
                     }
                     h3 {
+                        text-align: center;
                         width: 210px;
                         font-size: 16px;
                         color: #544e7a;
                     }
                     .reg-but {
+                        float: right;
                         width: 125px;
                         height: 57px;
                         background-color: #f56962;
@@ -48,7 +51,7 @@
                     }
                     h3 {
                         width: 466px;
-                        font-size: 34px;
+                        font-size: 29px;
                         margin-top: 30px;
                     }
                     label {
@@ -57,7 +60,7 @@
                     }
                     input {
                         margin-top: 20px;
-                        margin-bottom: 50px;
+                        margin-bottom: 5px;
                         width: 499px;
                         height: 56px;
                         font-size: 14px;
@@ -69,7 +72,7 @@
                         color: white;
                         width: 499px;
                         height: 70px;
-                        margin-top: 84px;
+                        // margin-top: 84px;
                         font-size: 18px;
 
                         // margin-left: 530px;
@@ -83,8 +86,11 @@
                         color: black;
                         width: 499px;
                         height: 70px;
-                        margin-top: 84px;
+                        margin-top: 50px;
                         font-size: 18px;
+                    }
+                    img {
+                        margin-top: 40px;
                     }
                 }
                 .sag {

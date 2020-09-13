@@ -1,4 +1,6 @@
 #details {
+    background-color: #fef0ef;
+    background-size: 456px 456px;
     .container-main {
         .row {
             .left-c {
@@ -8,7 +10,7 @@
                 margin-top: 80px;
                 width: calc(100% / 3);
                 .color-border {
-                    background-color: #fef0ef;
+                    // background-color: #fef0ef;
                     border-radius: 15px;
 
                     // float: right;
@@ -179,40 +181,50 @@
                     height: 515px;
                     margin-top: 30px;
                     background-color: #fef0ef;
-                    .borders {
-                        width: 137px;
-                        height: 137px;
-                        background-color: #707070;
-                        display: inline-block;
-                        border-radius: 5px;
-                        // position: absolute;
-                    }
-                    h1 {
-                        // width: 179px;
-                        font-size: 24px;
-                        color: #302d3a;
-                    }
-                    .ins-small-cion {
-                        span {
-                            margin-right: 40px;
+                    .row-instructor {
+                        display: flex;
+                        flex-wrap: wrap;
+                        .column-instructor {
+                            width: 50%;
+                            .borders {
+                                width: 137px;
+                                height: 137px;
+                                background-color: #707070;
+                                display: inline-block;
+                                border-radius: 5px;
+                                // position: absolute;
+                            }
+                            h1 {
+                                margin-left: -210px;
+                                // float: left;
+                                // width: 179px;
+                                font-size: 24px;
+                                color: #302d3a;
+                            }
+                            .ins-small-cion {
+                                margin-left: -220px;
+                                span {
+                                    margin-right: 40px;
+                                }
+                                .fa-star {
+                                    color: orange;
+                                }
+                                .fa-eye {
+                                    color: red;
+                                }
+                                .fa-play.cicle {
+                                    color: green;
+                                }
+                            }
                         }
-                        .fa-star {
-                            color: orange;
+                        h3 {
+                            font-size: 16px;
+                            color: #5f5982;
                         }
-                        .fa-eye {
-                            color: red;
+                        h2 {
+                            font-size: 18px;
+                            color: #302d3a;
                         }
-                        .fa-play.cicle {
-                            color: green;
-                        }
-                    }
-                    h3 {
-                        font-size: 16px;
-                        color: #5f5982;
-                    }
-                    h2 {
-                        font-size: 18px;
-                        color: #302d3a;
                     }
                 }
                 .reviews {

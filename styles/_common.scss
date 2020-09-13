@@ -30,3 +30,13 @@ body {
     clear: both;
   }
 }
+button:hover {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+button {
+  outline: none;
+}
+body {
+  margin: 0 auto;
+}

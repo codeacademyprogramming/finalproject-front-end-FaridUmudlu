@@ -161,7 +161,7 @@
           width: 121px;
           height: 57px;
           margin-top: 84px;
-          margin-left: 530px;
+          margin-left: 510px;
         }
         h1 {
           margin-top: 80px;
@@ -260,8 +260,8 @@
           color: white;
           width: 121px;
           height: 57px;
-          margin-top: 84px;
-          margin-left: 530px;
+          // margin-top: 84px;
+          // margin-left: 510px;
         }
       }
     }
@@ -348,8 +348,11 @@
 }
 #car-3 {
   text-align: center;
+  // justify-content: center;
+  // align-items: center;
   .container-main {
-    width: calc(100% / 1);
+    width: 80%;
+    // margin-left: 30px;
     h1 {
       margin-top: 80px;
       font-size: 40px;

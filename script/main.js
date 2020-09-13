@@ -2,7 +2,6 @@ $(document).ready(function () {
     $('.ferid').owlCarousel({
         loop: true,
         nav: true,
-
         center: true,
         responsive: {
             0: {
